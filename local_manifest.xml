@@ -10,7 +10,7 @@
 
 <!-- device trees -->
 
-        <project path="device/xiaomi/mi439" name="android_device_xiaomi_Mi439" remote="Sri19944" revision="Evolution-X-snow" />
+        <project path="device/xiaomi/mi439" name="android_device_xiaomi_Mi439" remote="Sri19944" revision="Derpfest-12" />
         <project path="vendor/xiaomi/mi439" name="proprietary_vendor_xiaomi_mi439" remote="Sri19944" revision="lineage-18.1" />
         <project path="kernel/xiaomi/mi439" name="android_kernel_xiaomi_sdm439" remote="Sri19944" revision="a12/main" clone-depth="1" />
         
