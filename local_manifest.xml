@@ -10,8 +10,8 @@
 
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="Amritorock" revision="12L" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Amritorock" revision="12L" />
-        <project path="kernel/realme/r5x" name="kernel_realme_trinket" remote="Amritorock" revision="devel" clone-depth="1" />
+        <project path="device/xiaomi/mi439" name="android_device_xiaomi_Mi439" remote="Sri19944" revision="Derpfest-12" />
+        <project path="vendor/xiaomi/mi439" name="proprietary_vendor_xiaomi_mi439" remote="Sri19944" revision="lineage-18.1" />
+        <project path="kernel/xiaomi/mi439" name="android_kernel_xiaomi_sdm439" remote="Sri19944" revision="a12/main" clone-depth="1" />
         
 </manifest>
