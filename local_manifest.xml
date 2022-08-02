@@ -25,7 +25,7 @@
         
 <!-- Extras -->
        <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Sri19944" revision="lineage-18.1"/>
-       <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="fm" revision="arrow-12.1" />
+       <project path="vendor/qcom/opensource/libfmjni" name="ArrowOS/android_vendor_qcom_opensource_libfmjni" remote="fm" revision="arrow-12.1" />
         
 <!-- Replacements -->
        <!-- <remove-project name="LineageOS/android_hardware_qcom_audio"/> -->
