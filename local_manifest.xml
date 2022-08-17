@@ -2,7 +2,6 @@
 <manifest>
 
 <!-- Remotes -->      
-        
         <remote name="Sri19944"
              fetch="https://github.com/Sri19944" />
         
@@ -10,34 +9,21 @@
         <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="Sri19944" revision="snow" />
         <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="Sri19944" revision="snow" />
 
-
 <!--Kernels -->
         <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="Sri19944" revision="a12/main" />
-        
-
+       
 <!--Vendor trees -->
         <project path="vendor/xiaomi/Mi439" name="proprietary_vendor_xiaomi_Mi439" remote="Sri19944" revision="A12" />
         <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="Sri19944" revision="A12" />
         
-
 <!-- Extras -->
-
-	<remove-project name="android_packages_apps_FMRadio" />
+        <remove-project name="android_packages_apps_FMRadio" />
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Sri19944" revision="lineage-18.1" />
-
-	<project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="Sri19944" revision="snow" />
-
-	<remove-project name="android_device_qcom_sepolicy-legacy-um" />
+        <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="Sri19944" revision="snow" />
+        <remove-project name="android_device_qcom_sepolicy-legacy-um" />
  	<project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="Sri19944" revision="snow" />
         
 
 </manifest>     
     
-
-
-
-
-
-
-        
 
