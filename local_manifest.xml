@@ -19,10 +19,10 @@
 
 <!-- HALs -->
 
-        <remove-project name="android_hardware_qcom_wlan" />
-        <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_wlan" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
 
 
 	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="Sri19944" revision="wlan"/>
@@ -40,7 +40,7 @@
 
 <!-- Extras -->
         <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="Sri19944" revision="snow" />
-
+	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1"/>
 
 </manifest>     
     
