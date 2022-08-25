@@ -32,7 +32,7 @@
 
 <!-- Patches -->
 
-        <remove-project name="vendor_Evolution" />
+        <remove-project name="vendor_evolution" />
 	<remove-project name="system_core" />
 
 	<project path="vendor/evolution" name="vendor_evolution" remote="Sri19944" revision="snow" />
