@@ -8,7 +8,8 @@
                 fetch="https://github.com/arrowos" />
 
 <!--Device trees -->
-        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="Sri19944" revision="snow" />
+        
+	<project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="Sri19944" revision="snow" />
         <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="Sri19944" revision="snow" />
 
 <!--Kernels -->
@@ -19,7 +20,6 @@
         
 	<project path="vendor/xiaomi/Mi439" name="proprietary_vendor_xiaomi_Mi439" remote="Sri19944" revision="A12" />
         <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="Sri19944" revision="A12" />
-
 
 <!-- HALs -->
 
