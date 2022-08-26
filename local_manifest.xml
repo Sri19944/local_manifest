@@ -23,7 +23,7 @@
 
 <!-- HALs -->
 
-        <remove-project name="LineageOS/android_hardware_qcom_wlan" />
+        <remove-project name="android_hardware_qcom_wlan" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         
         <project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="Sri19944" revision="wlan"/>
