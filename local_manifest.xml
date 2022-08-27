@@ -34,14 +34,6 @@
         <project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="me" revision="media"/>
 	<project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="me" revision="display"/>
 
-<!-- Patches -->
-
-        <remove-project name="vendor_evolution" />
-	<remove-project name="system_core" />
-
-	<project path="vendor/evolution" name="vendor_evolution" remote="Sri19944" revision="snow" />
-        <project path="system/core" name="system_core-snow" remote="Sri19944" revision="snow" />
-
 <!-- Extras -->
         
 	<project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="Sri19944" revision="snow" />
